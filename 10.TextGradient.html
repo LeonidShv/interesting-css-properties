@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10. Text gradient</title>
+
+    <style>
+        .text {
+            background: linear-gradient(45deg, #ffc800 0, #5f00d3 50%, #fd0000 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Additional code */
+
+        .text {
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+            width: fit-content;
+            margin: auto;
+        }
+
+        .block {
+            background: #282c34;
+            border-radius: 5px;
+            height: 100px;
+            width: 360px;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <p class="text">Thank you for your attention!</p>
+    </div>
+</body>
+</html>

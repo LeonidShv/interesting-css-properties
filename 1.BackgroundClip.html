@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Background-clip: text</title>
+
+    <style>
+       .block {
+            color: transparent;
+            background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+            -webkit-background-clip: text;
+        }
+
+        /* Additional code */
+
+        .block {
+            background-size: cover;
+            background-position: center;
+            width: 420px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 72px;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+
+        body {
+            background: #22222a;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="block">
+        Hello world
+    </h1>
+</body>
+</html>
